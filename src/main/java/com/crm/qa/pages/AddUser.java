@@ -40,7 +40,7 @@ public class AddUser extends TestBase {
 	WebElement SaveButton;
 	
 	public AddUser() {
-		PageFactory.initElements(driver,this);
+	PageFactory.initElements(driver,this);
 	}
 	
 	public SystemUserPage AddUser(String URole,String EmpName, String UName,String UStatus, String pwd) throws InterruptedException {
